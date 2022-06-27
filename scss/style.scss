@@ -1,0 +1,33 @@
+@use './header.scss';
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+$background: #2D2C2C;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.container{
+    max-width: 1312px;
+    margin: 0 auto;
+}
+.wrapper{
+    position: relative;
+    height: 100vh;
+    .background{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: $background;
+        z-index: -1;
+    }
+}
