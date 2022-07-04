@@ -40,8 +40,6 @@
   }
   .wrapper header nav ul {
     flex-direction: column;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
     width: fit-content;
     box-shadow: -5px 0 10px #333;
     padding: 40px;
@@ -95,4 +93,6 @@ a:hover {
   left: 0;
   background-color: #2D2C2C;
   z-index: -1;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
