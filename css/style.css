@@ -22,6 +22,7 @@
   gap: 60px;
 }
 .wrapper header nav ul li a {
+  transition: all 0.3s;
   color: #FFFFFF;
 }
 .wrapper header nav .toggle {
@@ -40,8 +41,6 @@
   }
   .wrapper header nav ul {
     flex-direction: column;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
     width: fit-content;
     box-shadow: -5px 0 10px #333;
     padding: 40px;
@@ -75,7 +74,8 @@ a {
   text-decoration: none;
 }
 a:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
 }
 
 .container {
@@ -95,4 +95,6 @@ a:hover {
   left: 0;
   background-color: #2D2C2C;
   z-index: -1;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
