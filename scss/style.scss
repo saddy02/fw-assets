@@ -11,7 +11,8 @@ $background: #2D2C2C;
 a{
     text-decoration: none;
     &:hover{
-        text-decoration: underline;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 5px;
     }
 }
 .container{
